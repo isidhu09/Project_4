@@ -9,7 +9,7 @@
 - Ishanjit Sidhu
 
 ## Description:
-Are you a Rose or a Jack? We built a machine learning model that predicts whether you will survive a voyage on the Titanic based on your age, gender, passenger class, passenger fare, and whether you travel solo or with family. 
+Are you a Rose or a Jack? Created a machine learning model that predicts whether you will survive a voyage on the Titanic based on your age, gender, passenger class, passenger fare, and whether you travel solo or with family. 
 
 ## Dataset(s):
 https://www.kaggle.com/competitions/titanic/data  
@@ -25,13 +25,13 @@ https://www.kaggle.com/datasets/vinicius150987/titanic3?resource=download
 
 ## Methods:
 
-After loading our data with Pandas, we removed unecessary columns, combined features that were similar and dropped any null values (Rose_Jack.ipynb). The cleaned data was saved as a csv (titanic_cleaned.csv). We then prepared the data for modeling by one hot coding the gender and ticket class features and scaling using SKLearn's standard scaler.  
+After loading the data with Pandas, removed unecessary columns, combined features that were similar and dropped any null values (Rose_Jack.ipynb). The cleaned data was saved as a csv (titanic_cleaned.csv). Then prepared the data for modeling by one hot coding the gender and ticket class features and scaling using SKLearn's standard scaler.  
 
-We trained several models on our data (Rose_Jack.ipynb) and tried some feature engineering (feature_engineering.ipynb), and the highest accuracy resulted from the Random Forest Classifier Model. You can see further details of the models we tried below and via the application.  
+Trained several models on the data (Rose_Jack.ipynb) and did feature engineering (feature_engineering.ipynb) - the highest accuracy resulted from the Random Forest Classifier Model. You can see further details of the models tried below and via the application.  
 
-Once we obtained our model, we exported it along with the scaler for use in the predictor form on our application. We deployed our app using Heroku, which renders each HTML template and powers the form as well.  
+Once model was obtained, it was exported along with the scaler for use in the predictor form on the application. App was deployed using Heroku, which renders each HTML template and powers the form.  
 
-For some research prior to making your selections on the form, we also included some visualizations with Matplotlib on the Models page and a Tableau dashboard on the Visuals page.
+For some research prior to making your selections on the form, visualizations were included with Matplotlib on the Models page and a Tableau dashboard on the Visuals page.
 
 ## Application and Form:
 
