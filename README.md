@@ -11,8 +11,6 @@
 ## Description:
 Are you a Rose or a Jack? We built a machine learning model that predicts whether you will survive a voyage on the Titanic based on your age, gender, passenger class, passenger fare, and whether you travel solo or with family. 
 
-![meme](Images/titanic_ml_meme.jpeg)
-
 ## Dataset(s):
 https://www.kaggle.com/competitions/titanic/data  
 https://www.kaggle.com/datasets/vinicius150987/titanic3?resource=download
